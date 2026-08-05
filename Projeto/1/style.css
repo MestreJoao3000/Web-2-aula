@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+form {
+    position: relative;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: center;
+    top: -50%;
+
+}
+
+Label{
+    color: white;
+}
+
+div{
+    position: absolute; 
+    border: 3px solid rgb(85, 0, 165);
+    background-color: rgb(85, 0, 165);
+    border-radius: 3px;
+    bottom: 37%;
+    right: 43%;
+    padding: 25px;
+}

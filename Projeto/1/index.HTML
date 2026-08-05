@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do sistema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <form id="form">
+
+            <label for="nome">Nome de usuário</label><br><br>
+            <input id="nome" type="text" placeholder="Digite o nome de usuário"><br><br>
+            <label for="senha">Senha</label><br><br>
+            <input id="senha" type="password" minlength="8" placeholder="Digite a senha"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" tittle="A senha deve conter no minimo 8 letras, uma letra maiúscula, uma letra minúscula, um números"><br><br>
+            <input id="button" type="submit" value="submit" onclick="verificar()">
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
